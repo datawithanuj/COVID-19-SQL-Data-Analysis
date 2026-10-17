@@ -1,126 +1,69 @@
-# 📊 COVID-19 Data Analysis Project (SQL + Power BI)
+# COVID-19 Data Analysis | SQL & Power BI
 
-## 📌 Project Overview
+> An end-to-end analysis of COVID-19 cases, deaths, infection rates, and vaccination progress using SQL and Power BI.
 
-This project presents an end-to-end data analysis of COVID-19 datasets using SQL and Power BI. It involves data cleaning, transformation, analysis, and visualization to extract meaningful insights from real-world data.
+![SQL](https://img.shields.io/badge/SQL-Analysis-336791) ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black) ![Status](https://img.shields.io/badge/Project-Completed-2ea44f)
 
----
+## Project Overview
 
-## 🎯 Objectives
+This project transforms COVID-19 deaths and vaccination datasets into meaningful global and country-level insights through data cleaning, SQL analysis, table joins, window functions, and interactive dashboards.
 
-* Analyze COVID-19 cases and deaths globally
-* Calculate infection and death rates
-* Identify top affected countries
-* Track vaccination progress over time
-* Build an interactive dashboard for insights
+## Objectives
 
----
+- Analyze global cases and deaths over time
+- Calculate death percentages and infection rates
+- Compare country and continent-level impact
+- Track vaccination progress
+- Build an interactive dashboard for reporting
 
-## 🛠️ Tools & Technologies
+## SQL Analysis
 
-* MySQL (Data Analysis)
-* SQL (Joins, Aggregations, Window Functions)
-* Power BI (Data Visualization & Dashboard)
+- Total cases and deaths over time
+- Death percentage by country
+- Infection rate comparisons
+- Continent-wise death analysis
+- Global summary statistics
+- Death and vaccination data joins
+- Rolling vaccination totals using window functions
 
----
+## Power BI Dashboard
 
-## 📂 Dataset
+### Overview
 
-* COVID-19 Deaths Dataset
-* COVID-19 Vaccination Dataset
+Total cases, total deaths, death percentage, and trends over time.
 
-*(Cleaned and transformed before analysis)*
+### Country Analysis
 
----
+Top countries by cases and deaths, country comparisons, and population-based metrics.
 
-## 🔍 Key Analysis Performed
+### Vaccination Analysis
 
-### 📌 SQL Analysis
+Daily vaccination trends, total progress, and country-level comparisons.
 
-* Total cases and deaths over time
-* Death percentage calculation
-* Infection rate by country
-* Continent-wise death analysis
-* Global summary statistics
-* Data joining (Deaths + Vaccination)
-* Rolling vaccination analysis using window functions
-
----
-
-## 📊 Power BI Dashboard
-
-The dashboard is divided into three main sections:
-
-### 1️⃣ Overview
-
-* Total Cases, Total Deaths, Death Percentage
-* Trend analysis of cases and deaths over time
-
-### 2️⃣ Country Analysis
-
-* Top countries by cases and deaths
-* Country-level comparison
-* Detailed data table with population and percentages
-
-### 3️⃣ Vaccination Analysis
-
-* Daily vaccination trend
-* Total vaccination count
-* Top countries by vaccination progress
-
----
-
-## 📸 Dashboard Preview
-
-### 🔹 Overview
+## Dashboard Preview
 
 ![Overview](overview.png)
 
-### 🔹 Country Analysis
+![Country Analysis](country.png)
 
-![Country](country.png)
+![Vaccination Analysis](vaccination.png)
 
-### 🔹 Vaccination Analysis
+## Key Insights
 
-![Vaccination](vaccination.png)
+- Infection and death rates varied across countries and regions
+- A small group of countries contributed a significant share of total cases and deaths
+- Vaccination progress increased over time
 
----
+## Tools Used
 
-## 💡 Key Insights
+- MySQL
+- SQL joins, aggregations, and window functions
+- Power BI
 
-* Certain countries experienced significantly higher infection rates relative to population
-* Death percentage varied across regions
-* Vaccination rollout showed a steady upward trend over time
-* Clear correlation between vaccination progress and control of spread
+## Outcome
 
----
+This project demonstrates a complete workflow: cleaning data, querying real-world datasets, building visualizations, and communicating insights clearly.
 
-## 🚀 Project Outcome
+## Author
 
-This project demonstrates the complete data analysis workflow:
-
-* Data Cleaning
-* Data Analysis
-* Data Visualization
-* Insight Generation
-
----
-
-## 📁 Repository Contents
-
-* SQL script file
-* Cleaned datasets (CSV)
-* Power BI dashboard screenshots
-* README documentation
-
----
-
-## 🙌 Conclusion
-
-This project highlights practical data analytics skills using real-world data and demonstrates the ability to transform raw data into meaningful insights using SQL and Power BI.
-
----
-
-## 🔗 Author
-
-**Anuj Devrani**
+**Anuj Devrani** · [GitHub](https://github.com/datawithanuj) · [LinkedIn](https://www.linkedin.com/in/anujdevrani)
